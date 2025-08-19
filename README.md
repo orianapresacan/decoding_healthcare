@@ -9,14 +9,18 @@ We investigated the impact of various LLM decoding strategies on accuracy, infer
 ## Repository Structure
 
 - `hyperparameter_inference.py` - this script was used to generate text using different decoding strategies.
+- 
     ```bash
     # greedy
     python hyperparameter_inference.py --task translation --model Qwen/Qwen3-1.7B --decoding_strategy greedy
     ```
+    
 - `evaluation_csv.py` - this script was used for evaluating the generated text using different metrics such as BLEU, ROUGE, BERTScore, and MAUVE.
+- 
     ```bash
     python evaluation_csv.py --task summarization --pred_path data/summarization/outputs --gt_file data/summarization/data.jsonl
     ```
+    
 - `statistical_analysis/` - this folder contains csv files with the complete results, as well as the code for the statistical analysis reported in Section 4 of the paper.
 
 ## Data preparation
