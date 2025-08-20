@@ -1,6 +1,6 @@
 # Decoding Strategies for Medical Text Generation
 
-## [Paper]() 
+## [Paper](https://arxiv.org/abs/2508.13580) 
 
 
 ## Overview
